@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    align-items: right;
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+
+  .sejong-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 600px;
+  }
+  
+  .info h1 {
+    margin: 0;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
+  /* Section Titles */
+  h2 {
+    border-bottom: 2px solid #000000;
+    background-color: antiquewhite;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Education Section */
+  .education {
+    background-color: lightgoldenrodyellow ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .education > .bachelor > h3 {
+    background-color: aquamarine;
+  }
+  
+  .education > .master > h3 {
+    background-color: aquamarine;
+  }
+
+  .education > .phd > h3 {
+    background-color: aquamarine;
+  }
+
+  /* Experience Section */
+  .experience {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .experience > .h2 {
+    background-color: antiquewhite;
+  }
+
+  h3 {
+    background-color: antiquewhite;
+  }
+  
+  /* Skills Section */
+  .skills {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  
